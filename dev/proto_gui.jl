@@ -174,6 +174,7 @@ function close_window(fig, cleanups...)
             return false
         end
     end
+    return true
 end
 
 gui()
